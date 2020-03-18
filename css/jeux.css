@@ -1,0 +1,32 @@
+body {
+    background: #f5f5f5;
+}
+
+.container {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d9534f;
+}
+
+.jumbotron {
+    padding-top: 10px;
+    background-color: #2E4272!important; 
+}
+
+.btn-danger {
+    margin-top: 10px;
+}
+
+.btn-default {
+    background: rgb(245, 241, 241)!important;
+}
+
+.secondes {
+    margin-top: -20px;
+}
+
+#paris {
+    transition: 0.25s;
+    visibility: hidden;
+    opacity: 0;
+}
