@@ -30,3 +30,7 @@ body {
     visibility: hidden;
     opacity: 0;
 }
+
+.form-control {
+    margin-left: 38%;
+}
