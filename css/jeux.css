@@ -80,7 +80,7 @@ body {
 .perso{
     display: block;
     position: relative;
-    margin-top: -15.9%;
+    margin-top: -22%;
     margin-left: -5%;
     z-index: 1;
 }
@@ -88,5 +88,5 @@ body {
 .voiture {
     position: relative;
     float: right;
-    margin-top: -20%;
+    margin-top: -18%;
 }
