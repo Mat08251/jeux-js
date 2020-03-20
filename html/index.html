@@ -16,27 +16,47 @@
     
     <div class="container">
         <div class="jumbotron text-center">
-            <h3>Le prix de la vitrine est entre 0 et <span class="prixMax">20</span>.</h3>
-            <h1 class="chrono">30</h1>
-            <h2 class="secondes">Secondes</h2>
-            <h2 class="reponse">Trouvez le Juste Prix !</h2>
+           <div class="texte-couleur">
+              <h3>Le prix de la vitrine est entre 0 et <span class="prixMax">20</span>.</h3>
+              <h1 class="chrono">30</h1>
+              <h2 class="secondes">Secondes</h2>
+              <h2 class="reponse">Trouvez le Juste Prix !</h2>
+           </div>
             <audio id="audioplay">
-                <source src="../musique/Vois des hommes nus avec Geralt des Rivier.mp3">
+                <source src="../musique/musique-le-juste-prix.mp3">
             </audio>
             <form id="paris" class="form-inline" role="form">
+                <div class="formulaire">
                 <input type="text" class="form-control" id="nombre" placeholder="Entrez un nombre" autocomplete="off">
                 <button type="submit" class="btn btn-default">Parier</button>
+                </div>
             </form>
             <button id="commencer" class="btn2 btn-large btn-danger">Commencer</button>
         </div>
+        <div class="texte-pause">
+           <p>Pour mettre la musique en pause veuillez</br>
+              appuyer sur le bouton ci-dessous</p>
+           <button class="pause">►</button>
+        </div>
+    </div>
+    <div class="perso">
+        <img src="../images/vincent.png" alt="perso-justeprix">
+    </div>
+    <div class="voiture">
+        <img src="../images/voiture.png." alt="voiture-justeprix">
     </div>
 
     <script>
        const playButton = document.querySelector(".btn2");
+       const pauseButton = document.querySelector(".pause");
        const monAudio =document.querySelector("#audioplay");
        
        playButton.addEventListener("click", function() {
            monAudio.play();
+       });
+
+       pauseButton.addEventListener("click", function() {
+           monAudio.pause();
        });
     </script>
 </body>
