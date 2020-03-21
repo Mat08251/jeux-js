@@ -9,7 +9,7 @@ body {
 }
 
 .texte-couleur{
-    color: rgb(255, 71, 71);
+    color: rgb(60, 142, 250);
     text-shadow: 1px 1px white;
 }
 
@@ -75,6 +75,8 @@ body {
 .texte-pause {
     color: rgb(255, 255, 255);
     margin-left: 10%;
+    background-color: rgb(119, 162, 255);
+    width: 28%;
 }
 
 .perso{
