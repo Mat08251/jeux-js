@@ -10,7 +10,7 @@ body {
 
 .texte-couleur{
     color: rgb(60, 142, 250);
-    text-shadow: 1px 1px white;
+    text-shadow: 1px 1px rgb(250, 243, 213);
 }
 
 .jumbotron {
@@ -76,6 +76,7 @@ body {
     color: rgb(255, 255, 255);
     margin-left: 10%;
     background-color: rgb(119, 162, 255);
+    border-radius: 5px;
     width: 28%;
 }
 
